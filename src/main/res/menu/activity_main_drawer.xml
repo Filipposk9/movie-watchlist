@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/watching"
+            android:title="@string/watching" />
+        <item
+            android:id="@+id/completed"
+            android:title="@string/completed" />
+        <item
+            android:id="@+id/plan_to_watch"
+            android:title="@string/plan_to_watch" />
+        <item
+            android:id="@+id/on_hold"
+            android:title="@string/on_hold" />
+        <item
+            android:id="@+id/dropped"
+            android:title="@string/dropped" />
+    </group>
+
+</menu>
